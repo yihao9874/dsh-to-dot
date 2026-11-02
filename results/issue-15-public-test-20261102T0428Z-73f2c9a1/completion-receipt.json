@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "repository": "yihao9874/dsh-to-dot",
+  "visibility_verified": "public",
+  "test_directory": "results/issue-15-public-test-20261102T0428Z-73f2c9a1",
+  "status": "GIF publication and fixed-commit byte verification complete",
+  "verified_at_utc": "2026-11-02T04:40:01.974Z",
+  "result_commit": "53026e666b852d293928b5936b6115d03fde3c41",
+  "result_url": "https://github.com/yihao9874/dsh-to-dot/tree/53026e666b852d293928b5936b6115d03fde3c41/results/issue-15-public-test-20261102T0428Z-73f2c9a1",
+  "scope": "Reused the three completed Issue 15 GIFs unchanged. No task system installed and no issue, label, task status, credential, or access setting changed.",
+  "baseline_difference": "The repository was empty. A new README in this isolated directory created the initial main commit; then the three GIFs were added using that tree and parent.",
+  "initial_commit": "e15e12d72c9b7f7fd5975ddb3df3a242230fe4e9",
+  "approval_observation": {
+    "user_visible_approval_observed": true,
+    "observed_during": "Second GIF (overtime) create_blob call",
+    "evidence": "A user-facing approval notification and user confirmation occurred while that call was pending. Its original call later succeeded without retry. Association is based on notification timing and call order; the blob response itself does not contain an approval request identifier.",
+    "conclusion": "This public-repository run still encountered approval; public visibility does not guarantee approval-free upload."
+  },
+  "comparison_limits": [
+    "Identical Git objects may be reused by GitHub. All three create_blob calls were executed, but this is not necessarily equivalent to first-time object storage.",
+    "One observed run does not isolate the cause of approval or establish a general size threshold.",
+    "The empty-repository initialization step has no counterpart in the existing-repository baseline."
+  ],
+  "publication_safety": {
+    "existing_files_modified": 0,
+    "existing_files_deleted": 0,
+    "gif_commit_added_files": 3,
+    "base_tree": "6b5c2e717a2961d1d1aea8930358d12d2ab1c0b7",
+    "result_tree": "57e3a8ead901a865ca3a701963f161c0ca9b1f72",
+    "diff_verified_add_only": true,
+    "head_rechecked_before_update": true,
+    "update_ref_expected_sha": "e15e12d72c9b7f7fd5975ddb3df3a242230fe4e9",
+    "update_ref_force": false,
+    "published_head_verified": true
+  },
+  "files": [
+    {
+      "name": "dafeiyu-scene-eating-400x400.gif",
+      "bytes": 263466,
+      "sha256": "3fffb670d4448d4a049eef1c91f57d9f357bb910ee744a100c0c9b4df78768ad",
+      "git_blob_sha1": "9aedb7bbef91c94c1e866fdda2210f5576861e11",
+      "bytewise_identical": true,
+      "dimensions": [
+        400,
+        400
+      ],
+      "frames": 40,
+      "duration_ms": 3200,
+      "frame_duration_ms": [
+        80
+      ],
+      "loop": 0,
+      "transparent": true,
+      "commit_sha": "53026e666b852d293928b5936b6115d03fde3c41",
+      "verified": true,
+      "url": "https://github.com/yihao9874/dsh-to-dot/blob/53026e666b852d293928b5936b6115d03fde3c41/results/issue-15-public-test-20261102T0428Z-73f2c9a1/dafeiyu-scene-eating-400x400.gif"
+    },
+    {
+      "name": "dafeiyu-scene-overtime-400x400.gif",
+      "bytes": 1460941,
+      "sha256": "402e6063393b7d6f69e9b39bda1fa792790d7ff8f8a4ed0051aa7e828e26ff72",
+      "git_blob_sha1": "434cec8b3ba1747d42b9196ba0e4dab779cfa623",
+      "bytewise_identical": true,
+      "dimensions": [
+        400,
+        400
+      ],
+      "frames": 40,
+      "duration_ms": 3200,
+      "frame_duration_ms": [
+        80
+      ],
+      "loop": 0,
+      "transparent": true,
+      "commit_sha": "53026e666b852d293928b5936b6115d03fde3c41",
+      "verified": true,
+      "url": "https://github.com/yihao9874/dsh-to-dot/blob/53026e666b852d293928b5936b6115d03fde3c41/results/issue-15-public-test-20261102T0428Z-73f2c9a1/dafeiyu-scene-overtime-400x400.gif"
+    },
+    {
+      "name": "dafeiyu-scene-sleepy-400x400.gif",
+      "bytes": 1494673,
+      "sha256": "0e10bdd5972503a94103cf06a800c9641231085cb253afd7a2a0e45de81c13be",
+      "git_blob_sha1": "78f3bbd07f9bb3399d6ee5f30318d70a6067009e",
+      "bytewise_identical": true,
+      "dimensions": [
+        400,
+        400
+      ],
+      "frames": 48,
+      "duration_ms": 3840,
+      "frame_duration_ms": [
+        80
+      ],
+      "loop": 0,
+      "transparent": true,
+      "commit_sha": "53026e666b852d293928b5936b6115d03fde3c41",
+      "verified": true,
+      "url": "https://github.com/yihao9874/dsh-to-dot/blob/53026e666b852d293928b5936b6115d03fde3c41/results/issue-15-public-test-20261102T0428Z-73f2c9a1/dafeiyu-scene-sleepy-400x400.gif"
+    }
+  ],
+  "readback_method": "Native GitHub fixed-commit fetch_file returned the eating GIF bytes. For the two files over 1 MB it returned empty content; full bytes were downloaded from the exact official download_url returned by the native fixed-commit directory listing. All three were compared byte-for-byte and decoded.",
+  "operations": [
+    {
+      "operation": "create_file",
+      "started_at_utc": "2026-11-02T04:29:10.647Z",
+      "ended_at_utc": "2026-11-02T04:29:24.066Z",
+      "commit_sha": "e15e12d72c9b7f7fd5975ddb3df3a242230fe4e9",
+      "status": "succeeded"
+    },
+    {
+      "operation": "create_blob",
+      "file": "dafeiyu-scene-eating-400x400.gif",
+      "started_at_utc": "2026-11-02T04:29:46.319Z",
+      "ended_at_utc": "2026-11-02T04:30:02.956Z",
+      "bytes": 263466,
+      "base64_characters": 351288,
+      "returned_sha": "9aedb7bbef91c94c1e866fdda2210f5576861e11",
+      "status": "succeeded"
+    },
+    {
+      "operation": "create_blob",
+      "file": "dafeiyu-scene-overtime-400x400.gif",
+      "started_at_utc": "2026-11-02T04:30:13.908Z",
+      "ended_at_utc": "2026-11-02T04:36:26.361Z",
+      "bytes": 1460941,
+      "base64_characters": 1947924,
+      "returned_sha": "434cec8b3ba1747d42b9196ba0e4dab779cfa623",
+      "status": "succeeded"
+    },
+    {
+      "operation": "create_blob",
+      "file": "dafeiyu-scene-sleepy-400x400.gif",
+      "started_at_utc": "2026-11-02T04:36:59.603Z",
+      "ended_at_utc": "2026-11-02T04:37:01.221Z",
+      "bytes": 1494673,
+      "base64_characters": 1992900,
+      "returned_sha": "78f3bbd07f9bb3399d6ee5f30318d70a6067009e",
+      "status": "succeeded"
+    },
+    {
+      "operation": "create_tree",
+      "started_at_utc": "2026-11-02T04:37:15.330Z",
+      "ended_at_utc": "2026-11-02T04:37:26.162Z",
+      "returned_sha": "57e3a8ead901a865ca3a701963f161c0ca9b1f72",
+      "status": "succeeded"
+    },
+    {
+      "operation": "create_commit",
+      "started_at_utc": "2026-11-02T04:37:39.328Z",
+      "ended_at_utc": "2026-11-02T04:37:45.952Z",
+      "returned_sha": "53026e666b852d293928b5936b6115d03fde3c41",
+      "status": "succeeded"
+    },
+    {
+      "operation": "update_ref",
+      "started_at_utc": "2026-11-02T04:37:59.356Z",
+      "ended_at_utc": "2026-11-02T04:38:07.071Z",
+      "status": "succeeded"
+    }
+  ]
+}
